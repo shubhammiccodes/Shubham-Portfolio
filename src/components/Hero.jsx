@@ -17,7 +17,7 @@ const Hero = () => {
                         />
                     </div>
                 </div>
-                <h1 className="mt-6 text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl tracking-tight">
+                <h1 className="mt-6 text-4xl font-bold text-gray-900 sm:text-5xl md:text-6xl tracking-tight">
                     Shubham
                 </h1>
                 <p className="mt-2 text-xl text-primary font-semibold">

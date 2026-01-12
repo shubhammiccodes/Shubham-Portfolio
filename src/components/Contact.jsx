@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <section id="contact" className="py-20 bg-white text-center">
             <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl mb-6">
+                <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-6">
                     Get in Touch
                 </h2>
                 <p className="text-lg text-gray-600 mb-8">
