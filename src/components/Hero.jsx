@@ -1,4 +1,5 @@
 import shubhamProfile from '../assets/shubham_Profile.webp';
+import resumePdf from '../assets/Shubham_Sr_FullStack_GenAI_ServingNotice_5YOE_01_2026.pdf';
 
 const Hero = () => {
     // Using imported local image
@@ -33,7 +34,9 @@ const Hero = () => {
                         View Projects
                     </a>
                     <a
-                        href="#" // Placeholder for resume link
+                        href={resumePdf}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
                     >
                         Download Resume
